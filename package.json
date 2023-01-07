@@ -1,0 +1,53 @@
+{
+  "name": "colby",
+  "version": "0.1.2",
+  "description": "",
+  "main": "./dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsc --watch",
+    "build": "tsc"
+  },
+  "exports": {
+    ".": "./dist/index.js",
+    "./toAnsi": "./dist/toAnsi.js",
+    "./toRgb": "./dist/toRgb.js",
+    "./colors": "./dist/colors.js",
+    "./style": "./dist/style.js"
+  },
+  "author": {
+    "name": "soso tsertsvadze",
+    "email": "sosotsertsvadze2@gmail.com"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.9.4"
+  },
+  "keywords": [
+    "ansi",
+    "ansi-to-rgb",
+    "ansi-rgb",
+    "ansi-color",
+    "rgb",
+    "rgb-log",
+    "log-color",
+    "colby",
+    "colby-color",
+    "log-rgb",
+    "color",
+    "string-to-color",
+    "colorer",
+    "log-beauty",
+    "ansi-code",
+    "colors",
+    "console-color",
+    "color-console",
+    "console-log",
+    "console",
+    "rgb",
+    "loge-style",
+    "loge-style-color",
+    "style-color",
+    "style"
+  ]
+}
