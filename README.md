@@ -13,7 +13,7 @@
 ### RGB Color
 
 ```js
-const { toRgb } = require("colby");
+const { toRgb } = require("colby/toRgb");
 
 console.log(toRgb(200, 1, 1)("This text is rgb(200, 1, 1) red!"));
 
@@ -26,7 +26,7 @@ console.log(blueColor("Background of this text is rgb(0, 0, 255) blue!", true));
 ### HEX Color
 
 ```js
-const { toHex } = require("colby");
+const { toHex } = require("colby/toHex");
 
 console.log(toHex("#FF0000")("This text is #FF0000 red!"));
 
@@ -39,7 +39,7 @@ console.log(blueColor("Background of this text is #0000FF blue!", true));
 ### Default Colors
 
 ```js
-const { colors } = require("colby");
+const { colors } = require("colby/colors");
 
 console.log(colors.Red("This text is red"));
 console.log(colors.Green("This text is green"));
@@ -57,7 +57,7 @@ console.log(colors.Yellow("Background of this text is yellow", true));
 ### Style
 
 ```js
-const { style } = require("colby");
+const { style } = require("colby/style");
 
 console.log(style.Underlined("text with underline"));
 console.log(style.Dim("Text with dim"));

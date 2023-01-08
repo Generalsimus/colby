@@ -1,6 +1,6 @@
 import toRgb from "./toRgb"
 
-export const colors = {
+const colors = {
     Black: toRgb(1, 1, 1),
     Red: toRgb(255, 0, 0),
     Green: toRgb(0, 128, 0),
@@ -11,5 +11,5 @@ export const colors = {
     Gray: toRgb(128, 128, 128),
     Cyan: toRgb(0, 255, 255),
 } as const
-
+export { colors }
 export default colors

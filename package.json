@@ -1,7 +1,7 @@
 {
   "name": "colby",
-  "version": "0.1.3",
-  "description": "",
+  "version": "0.1.4",
+  "description": "The fastest library for ANSI colors and highlighting console logs",
   "main": "./dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -55,5 +55,8 @@
     "loge-style-color",
     "style-color",
     "style"
-  ]
+  ],
+  "dependencies": {
+    "ansi-colors": "^4.1.3"
+  }
 }
