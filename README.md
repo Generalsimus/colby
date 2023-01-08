@@ -1,4 +1,5 @@
 # Colby
+#### The fastest library for ANSI colors and highlighting console logs
 
 [![npm version][npm-version-src]][npm-version-href]
 [![npm href][standard-js-src]][standard-js-href]
