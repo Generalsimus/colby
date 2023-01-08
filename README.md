@@ -1,30 +1,41 @@
 # Colby
 
-
 [![npm version][npm-version-src]][npm-version-href]
 [![npm href][standard-js-src]][standard-js-href]
 
 <!-- Refs -->
+
 [standard-js-src]: https://img.shields.io/badge/license-MIT-brightgreen?&style=flat-square
 [standard-js-href]: https://github.com/Generalsimus/colby/blob/master/LICENSE
-
 [npm-version-src]: https://img.shields.io/npm/v/colby?&style=flat-square
 [npm-version-href]: https://www.npmjs.com/package/colby
 
-
 ### RGB Color
+
 ```js
 const { toRgb } = require("colby");
 
 console.log(toRgb(200, 1, 1)("This text is rgb(200, 1, 1) red!"));
 
-
 const blueColor = toRgb(0, 0, 255);
 
-console.log(blueColor("This text is rgb(0, 0, 255) blue!"));
+console.log(blueColor("Background of this text is rgb(0, 0, 255) blue!", true));
+```
+
+### HEX Color
+
+```js
+const { toHex } = require("colby");
+
+console.log(toHex("#FF0000")("This text is #FF0000 red!"));
+
+const blueColor = toHex("#0000FF");
+
+console.log(blueColor("Background of this text is #0000FF blue!", true));
 ```
 
 ### Default Colors
+
 ```js
 const { colors } = require("colby");
 
@@ -41,6 +52,7 @@ console.log(colors.Yellow("Background of this text is yellow", true));
 ```
 
 ### Style
+
 ```js
 const { style } = require("colby");
 
@@ -49,13 +61,8 @@ console.log(style.Dim("Text with dim"));
 console.log(style.Italic("Text with italic"));
 console.log(style.Reverse("Text with reverse"));
 console.log(style.StrikeThrough("Text with strike through"));
-
 ```
-
-
 
 ## License
 
 MIT
-
- 

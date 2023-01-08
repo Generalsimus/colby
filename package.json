@@ -1,6 +1,6 @@
 {
   "name": "colby",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "",
   "main": "./dist/index.js",
   "scripts": {
@@ -12,6 +12,7 @@
     ".": "./dist/index.js",
     "./toAnsi": "./dist/toAnsi.js",
     "./toRgb": "./dist/toRgb.js",
+    "./toHex": "./dist/toHex.js",
     "./colors": "./dist/colors.js",
     "./style": "./dist/style.js"
   },
@@ -19,6 +20,11 @@
     "name": "soso tsertsvadze",
     "email": "sosotsertsvadze2@gmail.com"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Generalsimus/colby.git"
+  },
+  "homepage": "https://github.com/Generalsimus/colby",
   "license": "MIT",
   "devDependencies": {
     "typescript": "^4.9.4"
