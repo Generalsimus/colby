@@ -2,7 +2,7 @@ import toAnsi, { startSeq } from "./toAnsi"
 
 export const toStyle = (ansi: number) => toAnsi(ansi, startSeq)
 
-export const style = {
+const style = {
     Normal: toStyle(0),
     Bold: toStyle(1),
     Dim: toStyle(2),
@@ -14,5 +14,5 @@ export const style = {
     StrikeThrough: toStyle(9),
 } as const
 
-
-export default style
+export { style };
+export default style;

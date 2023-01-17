@@ -1,6 +1,6 @@
 {
   "name": "colby",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "The fastest library for ANSI colors and highlighting console logs",
   "main": "./dist/index.js",
   "scripts": {
@@ -13,7 +13,7 @@
     "./toAnsi": "./dist/toAnsi.js",
     "./toRgb": "./dist/toRgb.js",
     "./toHex": "./dist/toHex.js",
-    "./colors": "./dist/colors.js",
+    "./color": "./dist/color.js",
     "./style": "./dist/style.js"
   },
   "author": {
