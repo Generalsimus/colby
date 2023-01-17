@@ -40,18 +40,18 @@ console.log(blueColor("Background of this text is #0000FF blue!", true));
 ### Default Colors
 
 ```js
-const { colors } = require("colby/colors");
+const { color } = require("colby/color");
 
-console.log(colors.Red("This text is red"));
-console.log(colors.Green("This text is green"));
-console.log(colors.Cyan("This text is cyan"));
-console.log(colors.Yellow("This text is yellow"));
+console.log(color.Red("This text is red"));
+console.log(color.Green("This text is green"));
+console.log(color.Cyan("This text is cyan"));
+console.log(color.Yellow("This text is yellow"));
 
 // text Background-color
-console.log(colors.Red("Background of this text is red", true));
-console.log(colors.Green("Background of this text is green", true));
-console.log(colors.Cyan("Background of this text is cyan", true));
-console.log(colors.Yellow("Background of this text is yellow", true));
+console.log(color.Red("Background of this text is red", true));
+console.log(color.Green("Background of this text is green", true));
+console.log(color.Cyan("Background of this text is cyan", true));
+console.log(color.Yellow("Background of this text is yellow", true));
 ```
 ![3](https://user-images.githubusercontent.com/33871030/211204045-721e48f5-05e2-4d09-9cb6-ec8f7db4563b.png)
 

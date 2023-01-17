@@ -1,18 +1,19 @@
-import toAnsi, { startSeq } from "./toAnsi"
+import { createProxy } from "./createProxy";
+import toAnsi, { startSeq } from "./toAnsi";
 
-export const toStyle = (ansi: number) => toAnsi(ansi, startSeq)
+export const toStyle = (ansi: number = 0): (input: string) => string => toAnsi(ansi, startSeq);
 
-export const style = {
-    Normal: toStyle(0),
-    Bold: toStyle(1),
-    Dim: toStyle(2),
-    Italic: toStyle(3),
-    Underlined: toStyle(4),
-    Blinking: toStyle(5),
-    Reverse: toStyle(7),
-    Invisible: toStyle(8),
-    StrikeThrough: toStyle(9),
-} as const
+const style = createProxy({
+    Normal: 0,
+    Bold: 1,
+    Dim: 2,
+    Italic: 3,
+    Underlined: 4,
+    Blinking: 5,
+    Reverse: 7,
+    Invisible: 8,
+    StrikeThrough: 9,
+}, toStyle);
 
-
-export default style
+export { style };
+export default style;

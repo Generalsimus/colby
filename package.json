@@ -13,7 +13,7 @@
     "./toAnsi": "./dist/toAnsi.js",
     "./toRgb": "./dist/toRgb.js",
     "./toHex": "./dist/toHex.js",
-    "./colors": "./dist/colors.js",
+    "./color": "./dist/color.js",
     "./style": "./dist/style.js"
   },
   "author": {
